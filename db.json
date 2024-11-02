@@ -1,0 +1,140 @@
+{
+  "departments": [
+    {
+      "_id": { "$oid": "66f2a17c2197cf715dfdb039" },
+      "dept_name": "Operations",
+      "dept_id": "OP1234"
+    },
+    {
+      "_id": { "$oid": "66f2a1ac2197cf715dfdb03a" },
+      "dept_name": "Human Resource",
+      "dept_id": "HR1234"
+    },
+    {
+      "_id": { "$oid": "66f2a1d22197cf715dfdb03b" },
+      "dept_name": "Finance",
+      "dept_id": "FI1234"
+    },
+    {
+      "_id": { "$oid": "6710eac66f89b4379e49026b" },
+      "dept_name": "IT",
+      "dept_id": "IT123"
+    }
+  ],
+  "document_variant": [
+    {
+      "_id": { "$oid": "66f12e048185b1f8894089a5" },
+      "name": "AADHAR",
+      "document_id": "ADH1234"
+    },
+    {
+      "_id": { "$oid": "66f13d428185b1f8894089a6" },
+      "name": "PAN",
+      "document_id": "PAN1234"
+    },
+    {
+      "_id": { "$oid": "66f13db68185b1f8894089a7" },
+      "name": "DL",
+      "document_id": "DL1234"
+    }
+  ],
+  "employees": [
+    {
+      "_id": { "$oid": "66f28d082197cf715dfdb036" },
+      "firstName": "Akhilesh",
+      "lastName": "Srivastav",
+      "dob": { "$date": { "$numberLong": "845683200000" } },
+      "company_email": "Akhilesh.srivastava@kainskep.com",
+      "personal_email": "srivastavakhilesh157@gmail.com",
+      "status": "active",
+      "avatar": "some.png",
+      "employee_id": "EMP12345",
+      "dept_id": "OP1234",
+      "designation": "manager"
+    },
+    {
+      "_id": { "$oid": "66f28ec02197cf715dfdb037" },
+      "firstName": "Ankit",
+      "lastName": "Thirpathi",
+      "dob": { "$date": { "$numberLong": "727488000000" } },
+      "company_email": "Ankit.thirpathi@kainskep.com",
+      "personal_email": "thirpathiAnkit17@gmail.com",
+      "status": "active",
+      "avatar": "some.png",
+      "employee_id": "EMP12334",
+      "dept_id": "OP1234",
+      "designation": "employee"
+    }
+  ],
+  "employee_documents": [
+    {
+      "_id": { "$oid": "66f13eb58185b1f8894089a8" },
+      "employee_id": "EMP12345",
+      "document_id": "ADH1234"
+    },
+    {
+      "_id": { "$oid": "66f140798185b1f8894089a9" },
+      "employee_id": "EMP12345",
+      "document_id": "PAN1234"
+    },
+    {
+      "_id": { "$oid": "66f140d38185b1f8894089ab" },
+      "employee_id": "EMP12345",
+      "document_id": "DL1234"
+    }
+  ],
+  "organization": [
+    {
+      "_id": { "$oid": "6721262daa29d7472591c895" },
+      "orgContactNumber": "+917665624173",
+      "name": "Crisil"
+    },
+    {
+      "_id": { "$oid": "6721295daa29d7472591c896" },
+      "orgContactNumber": "+918949846048",
+      "name": "Kainskep"
+    }
+  ],
+  "organization_information": [
+    {
+      "_id": { "$oid": "6710e8b66f89b4379e490264" },
+      "organizationId": "Kainskep10921",
+      "name": "Kainskep",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "businessUnits": ["Jaipur", "Hyderabad"],
+      "departments": ["HR1234", "FI1234", "IT123", "OP1234"],
+      "size": "0-50",
+      "orgEmail": "string"
+    }
+  ],
+  "personal_details": [
+    {
+      "_id": { "$oid": "66f287202197cf715dfdb033" },
+      "dob": { "$date": { "$numberLong": "845683200000" } },
+      "gender": "male",
+      "category": "general",
+      "employee_id": "EMP12345",
+      "fatherName": "Ramesh Srivastav",
+      "motherName": "Soni Srivastav"
+    },
+    {
+      "_id": { "$oid": "66f2884c2197cf715dfdb034" },
+      "dob": { "$date": { "$numberLong": "658108800000" } },
+      "employee_id": "EMP12334",
+      "gender": "male",
+      "category": "general",
+      "fatherName": "Ankur Thirpathi",
+      "motherName": "Anupama Thirpathi"
+    }
+  ],
+  "pf_account_details": [
+    {
+      "_id": { "$oid": "66f29ce72197cf715dfdb038" },
+      "employee_id": "EMP12345",
+      "pf_account_number": "102398291320987234",
+      "status": "Active"
+    }
+  ]
+}
